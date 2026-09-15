@@ -3,23 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Privacy Policy for Poopal.">
-  <title>Privacy Policy — Poopal</title>
+  <title>Privacy Policy — Poomp</title>
+
+<meta
+name=“description”
+content=“Privacy Policy for Poomp.”
+
   <style>
     :root {
-      --bg: #11100f;
-      --text: #f5f1e8;
-      --secondary: #aaa39a;
-      --gold: #d6ad60;
-      --border: rgba(255,255,255,.08);
+      color-scheme: light dark;
+      --bg: #f7f5f0;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --secondary: #6e6e73;
+      --border: rgba(0, 0, 0, 0.08);
+      --accent: #9a6a32;
     }
-    * { box-sizing: border-box; }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111111;
+        --card: #1c1c1e;
+        --text: #f5f5f7;
+        --secondary: #a1a1a6;
+        --border: rgba(255, 255, 255, 0.10);
+        --accent: #d4a15f;
+      }
+    }
+    * {
+      box-sizing: border-box;
+    }
     body {
       margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Helvetica Neue", Arial, sans-serif;
       background: var(--bg);
       color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
-                   "Helvetica Neue", Arial, sans-serif;
       line-height: 1.7;
     }
     .container {
@@ -27,172 +45,111 @@
       margin: 0 auto;
       padding: 64px 24px;
     }
-    a {
-      color: var(--gold);
-      text-decoration: none;
-    }
-    a:hover { text-decoration: underline; }
-    .back {
-      display: inline-block;
-      margin-bottom: 48px;
-      font-size: 14px;
+    .card {
+      padding: 32px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
     }
     h1 {
-      font-size: 42px;
-      line-height: 1.1;
-      letter-spacing: -.03em;
-      margin: 0 0 12px;
+      margin-top: 0;
+      font-size: 40px;
+      letter-spacing: -1px;
+    }
+    h2 {
+      margin-top: 32px;
+      font-size: 21px;
     }
     .updated {
       color: var(--secondary);
-      margin-bottom: 48px;
+      margin-bottom: 32px;
     }
-    h2 {
-      font-size: 21px;
-      margin-top: 42px;
-      margin-bottom: 10px;
+    a {
+      color: var(--accent);
+      text-decoration: none;
     }
-    p, li {
-      color: #d0cbc3;
+    a:hover {
+      text-decoration: underline;
     }
-    strong { color: var(--text); }
-    footer {
-      margin-top: 64px;
-      padding-top: 24px;
-      border-top: 1px solid var(--border);
-      color: var(--secondary);
-      font-size: 14px;
+    nav {
+      margin-bottom: 32px;
     }
   </style>
 </head>
 <body>
   <main class="container">
-<a class="back" href="index.html">← Poopal</a>
-<h1>Privacy Policy</h1>
-<div class="updated">Last updated: September 15, 2026</div>
-<p>
-  Poopal is designed to help you record and understand your bowel habits
-  while respecting the privacy of your personal information.
-</p>
-<p>
-  This Privacy Policy explains how information is handled when you use
-  Poopal.
-</p>
-<h2>1. Bowel Movement Records</h2>
-<p>
-  Poopal may allow you to record information such as the date and time of
-  a bowel movement, duration, stool consistency, and other information
-  that you choose to enter.
-</p>
-<p>
-  Poopal is designed to keep your personal records under your control.
-  The developer does not sell your bowel movement records to advertisers
-  or data brokers.
-</p>
-<h2>2. Data Stored on Your Device</h2>
-<p>
-  Poopal may store your records locally on your Apple devices so that
-  features such as history, statistics and trends can be provided.
-</p>
-<p>
-  Data stored locally is subject to the security and privacy protections
-  provided by your device and operating system.
-</p>
-<h2>3. iCloud</h2>
-<p>
-  If Poopal provides iCloud synchronization, eligible app data may be
-  synchronized using Apple's iCloud services when that feature is enabled
-  and available.
-</p>
-<p>
-  Information handled by iCloud is also subject to Apple's terms and
-  privacy practices.
-</p>
-<h2>4. Apple Health</h2>
-<p>
-  If you choose to connect Poopal with Apple Health, Poopal will request
-  access only to Health data necessary for the features you choose to use.
-</p>
-<p>
-  Access to Apple Health data requires your explicit permission. You can
-  review or revoke permissions through Apple Health or your device
-  settings.
-</p>
-<p>
-  Health data obtained through HealthKit is not used for advertising or
-  sold to third parties.
-</p>
-<h2>5. Data Export</h2>
-<p>
-  Poopal may allow you to export your records in formats such as PDF,
-  CSV, or JSON.
-</p>
-<p>
-  Exported files are created at your request. You decide where those files
-  are saved and with whom or with which services they are shared.
-</p>
-<h2>6. AI Services</h2>
-<p>
-  Poopal does not automatically send your bowel movement records to
-  third-party artificial intelligence services.
-</p>
-<p>
-  If you export your data and choose to provide it to an AI service or
-  another third party, that information will be handled according to the
-  privacy policy and terms of that third party.
-</p>
-<h2>7. Analytics and Tracking</h2>
-<p>
-  Poopal does not use your bowel movement records for advertising or
-  cross-app tracking.
-</p>
-<p>
-  If anonymous diagnostics or analytics are introduced in a future
-  version, this Privacy Policy will be updated to describe the information
-  involved and how it is used.
-</p>
-<h2>8. Data Retention and Deletion</h2>
-<p>
-  Records stored by Poopal remain available until they are deleted by you,
-  removed through features provided by the app, or removed as a result of
-  deleting associated app data.
-</p>
-<p>
-  Where synchronized services are used, deletion behavior may also depend
-  on the settings and functionality of those services.
-</p>
-<h2>9. Children's Privacy</h2>
-<p>
-  Poopal is not designed to knowingly collect personal information from
-  children through a developer-operated account or server.
-</p>
-<h2>10. Medical Disclaimer</h2>
-<p>
-  Poopal is intended for personal tracking and informational purposes.
-  It is not a medical device and does not provide medical diagnosis,
-  treatment, or professional medical advice.
-</p>
-<p>
-  If you have concerns about your health, seek advice from a qualified
-  healthcare professional.
-</p>
-<h2>11. Changes to This Privacy Policy</h2>
-<p>
-  This Privacy Policy may be updated as Poopal changes. The date at the
-  top of this page indicates when the policy was last updated.
-</p>
-<h2>12. Contact</h2>
-<p>
-  If you have questions about this Privacy Policy or Poopal's privacy
-  practices, please contact:
-</p>
-<p>
-  <strong>Email:</strong>
-  <a href="mailto:chiuyan.ning@gmail.com">YOUR_EMAIL_ADDRESS</a>
-</p>
-<footer>
-  © 2026 Poopal. All rights reserved.
-</footer>
+<nav>
+  <a href="index.html">← Poomp</a>
+</nav>
+<article class="card">
+  <h1>Privacy Policy</h1>
+  <p class="updated">
+    Last updated: September 15, 2026
+  </p>
+  <p>
+    Poomp is designed with privacy in mind. This Privacy Policy explains
+    how information is handled when you use Poomp.
+  </p>
+  <h2>Data You Record</h2>
+  <p>
+    Poomp allows you to record information about your bowel movements and
+    related activity. This information is used to provide the app's
+    tracking, history, and related features.
+  </p>
+  <h2>Data Storage</h2>
+  <p>
+    Poomp is designed to keep your personal records on your devices and,
+    when applicable, in your personal iCloud account through Apple's
+    services.
+  </p>
+  <p>
+    Poomp does not operate its own server for storing your personal bowel
+    movement records.
+  </p>
+  <h2>iCloud</h2>
+  <p>
+    If iCloud synchronization is available and enabled, your Poomp data may
+    be stored and synchronized through Apple's iCloud services associated
+    with your Apple Account. Apple's handling of iCloud data is governed by
+    Apple's own terms and privacy policies.
+  </p>
+  <h2>Apple Health</h2>
+  <p>
+    If Poomp provides Apple Health integration, access to Health data will
+    occur only with your explicit permission.
+  </p>
+  <p>
+    Health data accessed through HealthKit is used only to provide
+    health-related features within Poomp and is not used for advertising.
+  </p>
+  <h2>Analytics and Tracking</h2>
+  <p>
+    Poomp does not use your bowel movement records for advertising or
+    cross-app tracking.
+  </p>
+  <h2>Data Sharing</h2>
+  <p>
+    Poomp does not sell your personal bowel movement records to third
+    parties.
+  </p>
+  <h2>Data Export</h2>
+  <p>
+    Poomp may allow you to export information or reports. Any information
+    you choose to export is handled according to the destination or service
+    you choose to share it with.
+  </p>
+  <h2>Changes to This Policy</h2>
+  <p>
+    This Privacy Policy may be updated as Poomp evolves. Changes will be
+    published on this page with an updated revision date.
+  </p>
+  <h2>Contact</h2>
+  <p>
+    If you have questions about this Privacy Policy or Poomp's privacy
+    practices, contact:
+    <a href="mailto:chiuyan.ning@gmail.com">chiuyan.ning@gmail.com</a>.
+  </p>
+</article>
   </main>
 </body>
 </html>
